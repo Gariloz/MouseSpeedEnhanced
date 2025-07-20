@@ -1,0 +1,26 @@
+## Interface: 30300
+## Title: MouseSpeed Enhanced
+## Notes: Advanced mouse and camera sensitivity control with configurable settings and user interface.
+## Author: Gariloz
+## Version: 2.0
+## SavedVariables: MouseSpeedEnhancedDB
+
+# Libraries
+Libs\LibStub\LibStub.xml
+Libs\Ace3\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\Ace3\AceAddon-3.0\AceAddon-3.0.xml
+Libs\Ace3\AceConsole-3.0\AceConsole-3.0.xml
+Libs\Ace3\AceEvent-3.0\AceEvent-3.0.xml
+Libs\Ace3\AceDB-3.0\AceDB-3.0.xml
+Libs\Ace3\AceGUI-3.0\AceGUI-3.0.xml
+Libs\Ace3\AceConfig-3.0\AceConfig-3.0.xml
+Libs\Ace3\AceConfigDialog-3.0\AceConfigDialog-3.0.xml
+
+# Core files
+MouseSpeedEnhanced_Locale.lua
+
+# Main addon (должен загружаться первым)
+MouseSpeedEnhanced.lua
+
+# Settings (загружается после основного файла)
+MouseSpeedEnhanced_Config.lua
