@@ -4,7 +4,7 @@ local DEFAULT_CAMERA_YAW = 55             -- Скорость камеры по 
 local DEFAULT_CAMERA_PITCH = 55           -- Скорость камеры по вертикали по умолчанию
 
 -- Значения игры по умолчанию (когда настройки отключены)
-local GAME_DEFAULT_MOUSE_SPEED = 1       -- Чувствительность мыши WoW по умолчанию
+local GAME_DEFAULT_MOUSE_SPEED = 1        -- Чувствительность мыши WoW по умолчанию
 local GAME_DEFAULT_CAMERA_YAW = 90        -- Скорость камеры WoW по горизонтали по умолчанию
 local GAME_DEFAULT_CAMERA_PITCH = 45      -- Скорость камеры WoW по вертикали по умолчанию
 
